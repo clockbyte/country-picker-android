@@ -4,7 +4,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.mukeshsolanki'
 android {
   compileSdkVersion 26
-  buildToolsVersion '26.0.1'
+  buildToolsVersion '26.0.2'
 
   defaultConfig {
     minSdkVersion 14
@@ -21,7 +21,7 @@ android {
 }
 
 dependencies {
-  compile fileTree(dir: 'libs', include: ['*.jar'])
-  compile 'com.android.support:support-fragment:26.0.2'
-  compile 'org.jetbrains:annotations-java5:15.0'
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
+  implementation 'com.android.support:support-fragment:26.1.0'
+  implementation 'org.jetbrains:annotations-java5:15.0'
 }
